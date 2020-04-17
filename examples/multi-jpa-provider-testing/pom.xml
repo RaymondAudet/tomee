@@ -57,7 +57,7 @@
               <goal>test</goal>
             </goals>
             <configuration>
-              <skip>${maven.test.skip}</skip>
+              <skip>true</skip>
               <systemPropertyVariables>
                 <javax.persistence.provider>org.hibernate.ejb.HibernatePersistence</javax.persistence.provider>
               </systemPropertyVariables>

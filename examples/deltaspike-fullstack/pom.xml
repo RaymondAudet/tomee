@@ -84,6 +84,7 @@
         <artifactId>maven-surefire-plugin</artifactId>
         <version>2.18.1</version>
         <configuration> <!-- optional -->
+          <skip>true</skip>
           <systemPropertyVariables>
             <openejb.jul.forceReload>true</openejb.jul.forceReload>
             <logging.level.OpenEJB.startup>FINEST</logging.level.OpenEJB.startup>

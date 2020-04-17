@@ -94,6 +94,7 @@
         <artifactId>maven-surefire-plugin</artifactId>
         <version>2.18.1</version>
         <configuration> <!-- arquillian tomee embedded and openejb can conflict, since first one is suite scoped -->
+          <skip>true</skip>
           <reuseForks>false</reuseForks>
         </configuration>
       </plugin>
