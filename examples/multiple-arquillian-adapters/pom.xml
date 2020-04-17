@@ -62,7 +62,7 @@
               <goal>test</goal>
             </goals>
             <configuration>
-              <skip>${maven.test.skip}</skip>
+              <skip>true</skip>
               <groups>org.superbiz.embedded.standalone.Embedded</groups>
               <systemPropertyVariables>
                 <arquillian.launch>embedded</arquillian.launch>

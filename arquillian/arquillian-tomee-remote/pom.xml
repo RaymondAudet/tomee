@@ -231,6 +231,7 @@
         <configuration>
           <reuseForks>true</reuseForks>
           <forkCount>1</forkCount>
+          <skip>true</skip>
         </configuration>
       </plugin>
     </plugins>

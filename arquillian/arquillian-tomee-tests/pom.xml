@@ -216,7 +216,7 @@
                   <goal>test</goal>
                 </goals>
                 <configuration>
-                  <skip>${maven.test.skip}</skip>
+                  <skip>true</skip>
                   <argLine>-javaagent:${settings.localRepository}/org/apache/tomee/openejb-javaagent/${project.version}/openejb-javaagent-${project.version}.jar</argLine>
                   <systemPropertyVariables>
                     <tomee.version>7.1.3-SNAPSHOT</tomee.version>
@@ -315,7 +315,7 @@
                   <goal>test</goal>
                 </goals>
                 <configuration>
-                  <skip>${skip.remote.webprofile}</skip>
+                  <skip>true</skip>
                   <systemPropertyVariables>
                     <openejb.arquillian.debug>true</openejb.arquillian.debug>
                     <tomee.version>7.1.3-SNAPSHOT</tomee.version>
@@ -545,7 +545,7 @@
                   <goal>test</goal>
                 </goals>
                 <configuration>
-                  <skip>${maven.test.skip}</skip>
+                  <skip>true</skip>
                   <argLine>-XX:MaxPermSize=768M</argLine>
                   <systemPropertyVariables>
                     <tomee.version>7.1.3-SNAPSHOT</tomee.version>

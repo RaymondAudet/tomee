@@ -91,6 +91,7 @@
         <artifactId>maven-surefire-plugin</artifactId>
         <configuration>
           <useFile>false</useFile>
+          <skip>true</skip>
         </configuration>
       </plugin>
       <plugin>

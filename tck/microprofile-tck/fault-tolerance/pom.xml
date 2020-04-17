@@ -35,6 +35,7 @@
         <!-- Updated version to fix hanging text -->
         <version>2.22.0</version>
         <configuration>
+          <skip>true</skip>
           <dependenciesToScan>
             <dependency>org.eclipse.microprofile.fault-tolerance:microprofile-fault-tolerance-tck</dependency>
           </dependenciesToScan>

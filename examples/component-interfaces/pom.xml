@@ -46,6 +46,7 @@
         <artifactId>maven-surefire-plugin</artifactId>
         <version>2.18.1</version>
         <configuration>
+          <skip>true</skip>
           <!-- argLine>-agentlib:jdwp=transport=dt_socket,server=y,address=5005</argLine -->
         </configuration>
       </plugin>

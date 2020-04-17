@@ -316,6 +316,7 @@
         <artifactId>maven-surefire-plugin</artifactId>
         <version>2.17</version>
         <configuration>
+          <skip>true</skip>
           <childDelegation>true</childDelegation>
           <reuseForks>false</reuseForks>
           <forkCount>2</forkCount>
@@ -730,6 +731,7 @@
                 -Xrunjdwp:transport=dt_socket,server=y,suspend=y,address=5005
                 -Xms512m -Xmx1024m -XX:PermSize=256m -XX:MaxPermSize=512m
               </argLine>
+              <skip>true</skip>
               <runOrder>alphabetical</runOrder>
               <!-- make local/buildbot runs deterministic and the same -->
               <workingDirectory>${project.basedir}/target</workingDirectory>
